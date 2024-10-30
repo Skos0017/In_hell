@@ -7,15 +7,33 @@ class Program
 {
     static void Main()
     {
+        // Создание экземпляра Encryptor
+        var encryptor = new Encryptor();
+
+        // Проверка наличия файлов с ключом и IV
+        string keyFilePath = "key.bin";
+        string ivFilePath = "iv.bin";
+
+        if (File.Exists(keyFilePath) && File.Exists(ivFilePath))
+        {
+            // Загрузка ключа и IV из файлов
+            encryptor.LoadKeyAndIV(keyFilePath, ivFilePath);
+        }
+        else
+        {
+            // Генерация нового ключа и IV
+            Console.WriteLine("Генерация нового ключа и вектора инициализации (IV)...");
+        }
+
         // Создание пользователя
         var user = new User(
-            login: "user123",
-            password: "password123",
+            login: "us1er123",
+            password: "p1assword123",
             firstName: "Иван",
             lastName: "Иванов",
             middleName: "Иванович",
-            phoneNumber: "1234567890",
-            email: "ivan@example.com",
+            phoneNumber: "12134567890",
+            email: "iv1an@example.com",
             userId: 1,
             isOrganizer: true,
             isPaid: false
