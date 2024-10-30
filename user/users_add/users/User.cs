@@ -15,6 +15,8 @@ namespace UserManagement
         private bool isOrganizer;
         private bool isPaid;
 
+
+
         public User(string login, string password, string firstName, string lastName, string middleName,
                     string phoneNumber, string email, int userId, bool isOrganizer, bool isPaid)
         {
@@ -37,7 +39,7 @@ namespace UserManagement
         public string GetMiddleName() => middleName;
         public string GetPhoneNumber() => phoneNumber;
         public string GetEmail() => email;
-        public int GetUser Id() => userId;
+        public int GetUser  => userId;
         public bool IsOrganizer() => isOrganizer;
         public bool IsPaid() => isPaid;
 

@@ -16,7 +16,7 @@ namespace UserManagement
             encryptor = new Encryptor();
         }
 
-        public bool Login(string login, string password, string phoneNumber, int userId)
+        public bool Login(string login, string password, string phoneNumber, string email, int userId)
         {
             // Чтение данных из JSON файла
             if (!File.Exists(jsonFilePath))
@@ -29,9 +29,14 @@ namespace UserManagement
 
             // Поиск пользователя
             var user = users?.FirstOrDefault(u =>
-                u.login == login &&
-                u.userId == userId &&
-                u.phoneNumber == phoneNumber);
+                u.GetLogin() == login &&
+                u.GetUser == userId &&
+                u.GetEmail() == email &&
+                u.GetPhoneNumber() == phoneNumber);
+
+            // Поля login, userId, phoneNumber - недоступны из-за приватного модификатора этих полей
+            //  в классе User. Чтобы решить этот вопрос - создай в классе User публичные свойства для каждого поля
+
 
             if (user == null)
             {

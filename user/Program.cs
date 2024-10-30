@@ -32,7 +32,7 @@ class Program
             firstName = user.GetFirstName(),
             lastName = user.GetLastName(),
             middleName = user.GetMiddleName(),
-            userId = user.GetUser Id(),
+            userId = user.GetUser,
             isOrganizer = user.IsOrganizer(),
             isPaid = user.IsPaid()
         };
@@ -51,10 +51,11 @@ class Program
         string login = "user123";
         string password = "password123";
         string phoneNumber = "1234567890";
+        string email = "ivan@example.com";
         int userId = 1;
 
         // Попытка входа
-        bool isLoggedIn = authService.Login(login, password, phoneNumber, userId);
+        bool isLoggedIn = authService.Login(login, password, phoneNumber, email, userId);
 
         if (isLoggedIn)
         {
@@ -66,5 +67,10 @@ class Program
             Console.WriteLine("Неверный логин или пароль.");
         }
 
+    }
+
+    private static object Id()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.AssemblyInfoInputs.cache
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.AssemblyInfo.cs
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.csproj.CoreCompileInputs.cache
+C:\Users\cifra\Desktop\11\In_hell\user\bin\Debug\net6.0\user.exe
+C:\Users\cifra\Desktop\11\In_hell\user\bin\Debug\net6.0\user.deps.json
+C:\Users\cifra\Desktop\11\In_hell\user\bin\Debug\net6.0\user.runtimeconfig.json
+C:\Users\cifra\Desktop\11\In_hell\user\bin\Debug\net6.0\user.dll
+C:\Users\cifra\Desktop\11\In_hell\user\bin\Debug\net6.0\user.pdb
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.dll
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\refint\user.dll
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.pdb
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\user.genruntimeconfig.cache
+C:\Users\cifra\Desktop\11\In_hell\user\obj\Debug\net6.0\ref\user.dll

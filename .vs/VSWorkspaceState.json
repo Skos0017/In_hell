@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\user",
+    "\\user\\users_add",
+    "\\user\\users_add\\users"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\user\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
